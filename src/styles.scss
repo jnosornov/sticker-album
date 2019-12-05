@@ -1,0 +1,19 @@
+$brand-color: tomato;
+
+* {
+  color: $brand-color;
+  background-color: #bababa;
+}
+
+.cardWrapper {
+  display: inline-flex;
+}
+
+.stickerWrapper {
+  width: 400px;
+  border: 8px solid white;
+  .sticker {
+    width: 100%;
+    display: block;
+  }
+}
