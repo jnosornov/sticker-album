@@ -1,8 +1,20 @@
 $brand-color: tomato;
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
 * {
   color: $brand-color;
   background-color: #bababa;
+  box-sizing: border-box;
 }
 
 .cardWrapper {

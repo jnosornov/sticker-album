@@ -1,5 +1,7 @@
 // choices
 export const theme = {
+  width: '350px',
+  height: '250px',
   colors: {
     black: '#000',
     white: '#fff'
@@ -43,6 +45,8 @@ export const tokens = {
   placeholder: {
     border: theme.borders[3],
     fontSize: theme.fontSize[7],
-    fontWeight: theme.fontWeight.medium
+    fontWeight: theme.fontWeight.medium,
+    width: theme.width,
+    height: theme.heigth
   }
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import coral from '../images/coral.jpg';
 
 import { StyleSheet, css } from 'aphrodite';
+import { theme } from '../utils/designTokens';
 
 const WithSticker = () => (
   <div className={css(styles.imageWrapper)}>
@@ -11,8 +12,8 @@ const WithSticker = () => (
 
 const styles = StyleSheet.create({
   imageWrapper: {
-    width: '400px',
-    heigth: '400px',
+    width: theme.width,
+    heigth: theme.height,
     border: '8px solid white',
     display: 'inline-block'
   },
